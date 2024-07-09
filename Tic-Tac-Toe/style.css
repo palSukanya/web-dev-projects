@@ -1,0 +1,73 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+   color: #260C1A;
+}
+body{
+    background-color: #EDBFC6;
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    justify-content: center;
+    align-items: center;
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    color: #260C1A;
+    border: 2vmin;
+    border-style: double;
+    border-color: #EDBFC6;
+    font-size: 8vmin;
+    background-color: #AF8D86;
+    cursor: pointer;
+}
+#b1{
+    padding : 1rem;
+    font-size: 1.25rem;
+    background-color:#EDBFC6 ;
+    color: #260C1A;
+    border-radius: 1rem;
+    border-color: #260C1A;
+}
+#b2{
+    padding : 1rem;
+    font-size: 1.25rem;
+    background-color:#EDBFC6 ;
+    color: #260C1A;
+    border-radius: 1rem;
+    border-color: #260C1A;
+}
+#msg {
+    color: #260C1A;
+    font-size: 5vmin;
+  }
+  
+ .msg-hide {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+  }
+  
+  .hide {
+    display: none;
+  }

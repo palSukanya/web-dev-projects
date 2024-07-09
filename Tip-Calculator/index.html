@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip-Calculator</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+  <form>
+    <div class="container">
+        <h2>Calculate Tip</h2>
+        <div class="inputs">
+           <input id="ba" placeholder="Bill Amount" type="text" />
+           <input id="tp" placeholder="Tip Percentage" type="text" />
+        </div>
+        <div id="isRound">
+          <p>
+            Round up Tip? <input type="checkbox" />
+          </p>
+        </div>
+        <button id="btn">Submit</button>
+        <p id="amt">Tip Amount : Rs. 0.0</p>
+    </div>
+  </form>
+<script src="script.js"></script>   
+</body>
+</html>

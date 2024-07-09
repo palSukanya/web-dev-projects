@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #092217;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #EAF4F4;
+}
+.container{
+    background-color: #6B9080;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height:fit-content;
+    width: 40vh;
+}
+form{
+    margin: 2rem 0 1rem 0;
+}
+form input,#isRound,button{
+    margin-top: 1rem;
+} 
+form input{
+    font-size: 1rem;
+    border-radius: 0.45rem;
+    outline: none;
+    border: 1.5px solid #092217;
+    padding-left: 0.5rem;
+}
+h2,#amt{
+    display: flex;
+    justify-content: center;
+}
+#btn{
+    height:fit-content;
+    padding: 1vh;
+    border-radius: 0.45rem;
+    border: 2px solid #092217;
+    margin-left: 14vh;
+}
+#amt{
+    padding-top: 1rem;
+}
