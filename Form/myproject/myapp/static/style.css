@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #e0eafc, #cfdef3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 400px;
+    width: 100%;
+    min-height:fit-content;
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin:auto;
+}
+.container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 26px;
+    text-align: center;
+    color: #333;
+    font-weight: 700;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-size: 16px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus {
+    border-color: #007BFF;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007BFF;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.02);
+}
+
+.radio-group {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.radio-group input[type="radio"] {
+    margin: 0;
+    accent-color: #007BFF;
+}
+
+.radio-group label {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #333;
+}
+.submit-count {
+    font-size: 16px; /* Slightly smaller font size for a modern look */
+    font-weight: 600; /* Semi-bold text */
+    color: #333; /* Darker text color for better readability */
+    padding: 12px 24px; /* Ample padding for a spacious feel */
+    border: 1px solid #ddd; /* Light border for a subtle outline */
+    border-radius: 12px; /* Larger border-radius for more rounded corners */
+    background: linear-gradient(145deg, #ffffff, #f9f9f9); /* Soft gradient background */
+    margin-top: 20px; /* Space from elements above */
+    text-align: center; 
+    width: fit-content; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); 
+    transition: all 0.3s ease;
+}
+
+.submit-count:hover {
+    background: linear-gradient(145deg, #e0eafc, #cfdef3); 
+    color: #0056b3;
+    border-color: #e0eafc;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); 
+}
+
+
